@@ -1,0 +1,20 @@
+{
+    "node": "n8n-nodes-base.Bitvavo",
+    "nodeVersion": "1.0",
+    "codexVersion": "1.0",
+    "categories": [
+        "Cryptocurrency"
+    ],
+    "resources": {
+        "credentialDocumentation": [
+            {
+                "url": "https://docs.bitvavo.com"
+            }
+        ],
+        "primaryDocumentation": [
+            {
+                "url": "https://docs.bitvavo.com"
+            }
+        ]
+    }
+}
