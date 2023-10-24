@@ -181,8 +181,9 @@ export class Bitvavo implements INodeType {
                 .digest('hex');
 
             // Make the API request using axios
+            //test code
             const response = await axios({
-                method,
+                method: operation === 'placeOrder' ? 'POST' : 'GET',
                 url,
                 data,
                 params: {
